@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://localhost:3000'); // Connect to WebSocket server
+const socket = new WebSocket('nodejs-serverless-function-express-five-omega.vercel.app'); // Connect to WebSocket server
 
 const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
